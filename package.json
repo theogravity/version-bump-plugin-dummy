@@ -1,6 +1,6 @@
 {
   "name": "version-bump-plugin-dummy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for version-bump used for testing plugin functionality only",
   "main": "lib/index.js",
   "scripts": {

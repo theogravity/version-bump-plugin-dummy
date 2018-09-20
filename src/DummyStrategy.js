@@ -13,7 +13,14 @@ export default class DummyStrategy extends BaseVersionStrategy {
   static getCommandConfig () {
     return {
       command: DummyStrategy.strategyShortName,
-      describe: `Dummy strategy that does nothing. Used for testing purposes only.`
+      describe: `Dummy strategy that does nothing. Used for testing purposes only.`,
+      builder: (yargs) => {
+        yargs.options({
+          fakeOption: {
+            describe: 'An option that does nothing'
+          }
+        })
+      }
     }
   }
 
