@@ -1,2 +1,5 @@
 # version-bump-plugin-dummy
-Plugin for version-bump used for testing plugin functionality only
+
+A version strategy for [version-bump](https://github.com/theogravity/version-bump).
+
+Does not do anything. Used for testing strategy functionality only.

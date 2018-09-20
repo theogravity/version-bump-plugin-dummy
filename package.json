@@ -1,0 +1,59 @@
+{
+  "name": "version-bump-plugin-dummy",
+  "version": "1.0.0",
+  "description": "Plugin for version-bump used for testing plugin functionality only",
+  "main": "lib/index.js",
+  "scripts": {
+    "changelog:help": "changelog-version",
+    "changelog:verify": "changelog-version verify",
+    "changelog:prepare": "changelog-version prepare",
+    "changelog:release": "changelog-version release",
+    "build": "babel src -d lib",
+    "prepublishOnly": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theogravity/version-bump-plugin-dummy.git"
+  },
+  "author": "Theo Gravity <theo@suteki.nu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theogravity/version-bump-plugin-dummy/issues"
+  },
+  "homepage": "https://github.com/theogravity/version-bump-plugin-dummy#readme",
+  "dependencies": {
+    "@theo.gravity/version-bump": "^1.0.10"
+  },
+  "keywords": [
+    "version",
+    "versioning",
+    "cli",
+    "bump",
+    "semver",
+    "package",
+    "revision",
+    "prerelease",
+    "commit",
+    "git",
+    "release",
+    "increment",
+    "automation",
+    "circle-ci",
+    "travis-ci",
+    "automatic",
+    "package",
+    "package.json",
+    "file",
+    "version-bump-plugin"
+  ],
+  "devDependencies": {
+    "@babel/cli": "7.0.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/register": "7.0.0",
+    "babel-core": "^7.0.0-0",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
