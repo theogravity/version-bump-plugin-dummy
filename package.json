@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/theogravity/version-bump-plugin-dummy#readme",
   "dependencies": {
-    "@theo.gravity/version-bump": "^1.0.10"
+    "@theo.gravity/version-bump": "^1.2.5"
   },
   "keywords": [
     "version",
